@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Арт 4 сезона — авторские сады в Екатеринбурге. Дизайн-концепция сайта.">
+  <meta name="theme-color" content="#20362d">
+  <title>Арт 4 сезона — сады для жизни</title>
+  <link rel="preload" as="image" href="assets/retina/selection-10-5.webp" imagesrcset="assets/retina/selection-10-5-640.webp 640w, assets/retina/selection-10-5-1280.webp 1280w, assets/retina/selection-10-5.webp 3200w" imagesizes="100vw">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/vendor/lenis.css">
+  <link rel="stylesheet" href="experience.css?v=3.1">
+  <script src="assets/vendor/lenis.min.js" defer></script>
+  <script src="content.js" defer></script>
+  <script src="expanded-content.js?v=4.1" defer></script>
+  <script src="photo-assets.js?v=4" defer></script>
+  <script src="experience.js?v=4.1" defer></script>
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Арт 4 сезона — концепция обновления сайта">
+<meta property="og:description" content="Портфолио садов, услуги и команда. Демонстрационная версия для обсуждения.">
+<meta property="og:image" content="https://perihk.github.io/art-4season-demo/assets/selection-10-5.jpg">
+<meta property="og:url" content="https://perihk.github.io/art-4season-demo/">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="header" id="header">
+    <a class="brand" href="index.html" aria-label="Арт 4 сезона — главная"><img src="assets/logo.png" alt="Арт 4 сезона. Ландшафт из авторских рук" width="500" height="120"></a>
+    <nav class="main-nav" aria-label="Основная навигация"><a href="portfolio.html">Наши сады</a><a href="services.html">Услуги</a><a href="about.html">О компании</a><a href="reviews.html">Отзывы</a></nav>
+    <button class="header-cta" data-contact>Обсудить участок</button>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+  </header>
+  <div class="mobile-menu" id="mobile-menu" inert><nav aria-label="Мобильная навигация"><a href="index.html">Главная</a><a href="portfolio.html">Наши сады</a><a href="services.html">Услуги</a><a href="about.html">О компании</a><a href="reviews.html">Отзывы</a><a href="contacts.html">Контакты</a></nav><a class="menu-phone" href="tel:+79122659528">+7 (912) 265-95-28</a><span class="eyebrow">Екатеринбург · с 2003 года</span></div>
+  <main id="main"></main>
+  <footer class="footer"><div class="footer-head"><div><p class="eyebrow">Обсудим ваш будущий сад</p><button class="footer-invite" data-contact>Давайте<em>знакомиться.</em></button></div><div class="footer-contact"><a href="tel:+79122659528">+7 (912) 265-95-28</a><a href="mailto:help@art-4season.ru">help@art-4season.ru</a><p>Екатеринбург и Свердловская область<br>Ежедневно с 9:00 до 19:00</p></div></div><div class="footer-links"><a href="index.html" class="footer-logo" aria-label="Арт 4 сезона — главная"><img src="assets/logo.png" alt="Арт 4 сезона" width="500" height="120"></a><nav class="footer-nav" aria-label="Дополнительная навигация"><a href="portfolio.html">Наши сады</a><a href="services.html">Услуги</a><a href="about.html">О компании</a><a href="reviews.html">Отзывы</a><a href="contacts.html">Контакты</a></nav></div><div class="footer-bottom"><span>© Арт 4 сезона, 2026</span><a href="https://art-4season.ru/download/privacy.pdf" target="_blank" rel="noopener">Конфиденциальность</a><span>Дизайн-концепция сайта</span></div></footer>
+  <dialog class="contact-dialog" id="contact-dialog" data-lenis-prevent aria-labelledby="contact-heading">
+    <button class="dialog-close" aria-label="Закрыть форму" data-close-dialog>×</button>
+    <div class="contact-visual"><img src="assets/curated-4-3.jpg" alt="Цветники в саду компании Арт 4 сезона"><span>Любая история<br>начинается с разговора.</span></div>
+    <div class="contact-content">
+      <p class="eyebrow">Ваш будущий сад</p><h2 id="contact-heading">Расскажите<br>о вашем участке</h2>
+      <form id="contact-form">
+        <fieldset><legend>С чем мы можем помочь?</legend><div class="choice-group"><label><input type="radio" name="service" value="Сад под ключ" checked><span>Сад под ключ</span></label><label><input type="radio" name="service" value="Проектирование"><span>Проектирование</span></label><label><input type="radio" name="service" value="Уход за садом"><span>Уход за садом</span></label></div></fieldset>
+        <div class="form-row"><label>Ваше имя<input name="name" placeholder="Как к вам обращаться" autocomplete="name" required maxlength="80"></label><label>Телефон<input type="tel" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" required pattern="\+?[0-9\s\(\)\-]{10,22}"></label></div>
+        <label>Несколько слов об участке <span class="optional">необязательно</span><textarea name="message" placeholder="Где находится, площадь, что вы хотите изменить" rows="2" maxlength="2000"></textarea></label>
+        <button class="button button-dark" type="submit">Обсудить проект</button>
+        <p class="demo-form-note">Это демонстрационная форма. Данные никуда не отправляются.</p>
+      </form>
+      <div class="form-success" hidden role="status"><span class="success-leaf" aria-hidden="true">✳</span><h3>Начало положено.</h3><p>Так будет выглядеть подтверждение обращения. В демоверсии заявка не отправляется.</p><button class="under-link" data-close-dialog>Вернуться к садам</button></div>
+    </div>
+  </dialog>
+  <dialog class="lightbox" id="lightbox" data-lenis-prevent aria-label="Просмотр фотографий проекта">
+    <button class="lightbox-close" aria-label="Закрыть фотографию">×</button><button class="lightbox-prev" aria-label="Предыдущая фотография"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12H4m6-6-6 6 6 6"/></svg></button><img alt=""><button class="lightbox-next" aria-label="Следующая фотография"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button><div class="lightbox-caption" aria-live="polite"></div>
+  </dialog>
+</body>
+</html>
